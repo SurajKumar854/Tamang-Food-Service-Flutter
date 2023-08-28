@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:yummy_kart/ui/on_board_page.dart';
-import 'package:yummy_kart/ui/splash_page.dart';
+import 'package:yummy_kart/ui/screens/auth/login_page.dart';
+import 'package:yummy_kart/ui/screens/onboard/on_board_page.dart';
+import 'package:yummy_kart/ui/screens/onboard/splash_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SplashPage(),
+      home: LoginPage(),
       debugShowCheckedModeBanner: false,
     );
   }

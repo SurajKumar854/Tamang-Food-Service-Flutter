@@ -3,6 +3,7 @@ class Assets {
   Assets._();
 
   static const String imagesCircleBg = 'assets/images/circle_bg.png';
+  static const String imagesGoogle = 'assets/images/google.png';
   static const String imagesLogo = 'assets/images/logo.png';
   static const String imagesSplash = 'assets/images/splash.png';
 
